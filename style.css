@@ -7,18 +7,20 @@ p {
     font-size: 150%;
     color: yellow;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
     
     
 
   }
 
   .section_title {
-    margin-top: 50px;
+    /* margin-top: 50px;
     margin-bottom: 10px;
     margin-right: 150px;
-    margin-left: 200px;
+    margin-left: 200px; */
     color: yellow;
     font-size: 215%;
+    text-align: center;
 
   }
 
@@ -29,12 +31,14 @@ p {
 
   ul, header {
       color: yellow;
+      text-align: center;
 
   }
 
   h1{
-      margin-left: 25%;
-      font-size: 400%
+      /* margin-left: 25%; */
+      font-size: 400%;
+      text-align: center; /* may need to remove*/
   }
 
   h3, h4{
@@ -44,11 +48,13 @@ p {
       font-size: 155%;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       padding-bottom: 15px;
+      text-align: center;
   }
 
   #header_h2{
-    margin-left: 27%;
-    font-size: 120%
+    /* margin-left: 27%; */
+    font-size: 120%;
+    text-align: center;
   }
 
   div{
@@ -56,10 +62,17 @@ p {
     padding-right: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
+    text-align: center;
+    
   }
 
   .navigation{
       color: yellow;
+      text-align: center;
   }
 
+  footer{
+    text-align: center;
+    margin: auto;
+  }
   
